@@ -5,6 +5,7 @@ import { Grid, Paper, Button, FormControl } from "@material-ui/core";
 import Select from "./select";
 import TableCars from "./cars";
 import TableCarsCompare from "./compare";
+import * as S from "./styled";
 
 const styles = {
   root: {
@@ -25,7 +26,7 @@ const styles = {
     height: 40,
     margin: "10px 0px",
     border: "2px solid #24BCE2",
-    borderRadius: "10px",
+    borderRadius: "8px",
     padding: "0 10px",
   },
 
@@ -58,13 +59,6 @@ const styles = {
   buttonA: {
     textDecoration: "none",
   },
-  bgmenu: {
-    background: "#24BCE2",
-    height: "70px",
-    color: "#ffffff",
-    textAlign: "center",
-    paddingTop: "15px",
-  },
 };
 
 const AppContent = ({
@@ -83,8 +77,11 @@ const AppContent = ({
 }) => {
   return (
     <div className={classes.root}>
-      <h1 className={classes.bgmenu}>Tabela de Comparação de Veículos</h1>
-      <Grid container className={classes.root} spacing={16}>
+      <S.Header>
+        <S.Titulo>Tabela de Comparação de Veículos</S.Titulo>
+      </S.Header>
+
+      <Grid container className={classes.root}>
         <Grid item className={classes.flex} xs={12}>
           <Grid item xs={8}>
             <Paper className={`${classes.paper} ${classes.flex}`}>
