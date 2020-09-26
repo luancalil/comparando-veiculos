@@ -7,7 +7,7 @@ Comparador de veículos (motos,carros caminhões) utilizando API. É possivel co
 ## Falta implementar
 
 - Sessão de favoritos
-- Gráficos
+- Gráficos de para melhorar a comparação.
 
 ## Available Scripts
 
