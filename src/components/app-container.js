@@ -54,6 +54,7 @@ const styles = {
   buttonB: {
     background: "#24BCE2",
     marginRight: "15px",
+    textAlign: "center",
   },
 
   buttonA: {
