@@ -12,7 +12,7 @@ Comparador de veículos (motos,carros caminhões) utilizando API. É possivel co
 ### Tecnologias
 
 - React
-- Mater
+- Material - UI
 
 ## Available Scripts
 
