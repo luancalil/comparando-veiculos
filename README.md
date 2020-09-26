@@ -1,13 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Comparador de Veículo via API
+### Comparador de Veículo via API
 
 Comparador de veículos (motos,carros caminhões) utilizando API. É possivel comparar marca, modelo e veículo.
 
-## Falta implementar
+### Falta implementar
 
 - Sessão de favoritos
 - Gráficos de para melhorar a comparação.
+
+### Tecnologias
+
+- React
+- Mater
 
 ## Available Scripts
 
